@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hermes Gmail Readonly & Hermes Calendar — osobné prepojenia</title>
+<style>
+:root{color-scheme:light;--ink:#202b35;--muted:#596774;--line:#dce3e8;--accent:#185a73;--paper:#fff;--wash:#f4f7f9}
+*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:17px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:900px;margin:36px auto;padding:40px;background:var(--paper);border:1px solid var(--line);border-radius:12px}nav{display:flex;gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:30px}a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}h1{font-size:clamp(1.85rem,5vw,2.7rem);line-height:1.2;margin:0 0 20px}h2{font-size:1.3rem;line-height:1.35;margin:30px 0 10px}p{margin:12px 0}.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:12px}.note{padding:16px 20px;background:var(--wash);border-left:3px solid var(--accent)}footer{margin-top:36px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.88rem}code{overflow-wrap:anywhere;font-size:.85em}li{margin:8px 0}@media(max-width:600px){main{margin:0;padding:24px 20px;border:0;border-radius:0}}
+</style>
+</head>
+<body><main>
+<nav aria-label="Hlavná navigácia"><a href="index.html">O prepojeniach</a><a href="privacy.html">Zásady súkromia</a></nav>
+
+<div class="eyebrow">Súkromné použitie · Google OAuth</div>
+<h1>Hermes — osobné Google prepojenia</h1>
+<p>Táto stránka opisuje dve integrácie, ktoré vlastník účtu používa so svojím osobným asistentom Hermes. Nejde o verejný produkt pre ďalších používateľov.</p>
+<section aria-labelledby="gmail"><h2 id="gmail">Hermes Gmail Readonly</h2>
+<p>Prepojenie slúži na vyhľadávanie a čítanie vybraných e-mailov a na prípravu súhrnov podľa pokynov vlastníka účtu. Opísaná konfigurácia používa oprávnenie <code>gmail.readonly</code>. Neudeľuje oprávnenie posielať správy ani meniť poštovú schránku.</p></section>
+<section aria-labelledby="calendar"><h2 id="calendar">Hermes Calendar</h2>
+<p>Prepojenie slúži na čítanie dostupných kalendárov a udalostí, prehľad programu a vyhodnocovanie času podľa pokynov vlastníka účtu. Používa oprávnenie <code>calendar.readonly</code>. Nevytvára, neupravuje ani nemaže udalosti.</p></section>
+<section aria-labelledby="processing"><h2 id="processing">Ako sa spracúvajú údaje</h2>
+<p>Google poskytuje údaje súkromným konektorom cez svoje API po súhlase vlastníka účtu. Výsledky môže spracovať Hermes a zvolený poskytovateľ AI modelu. Údaje vrátené asistentovi môžu zostať v histórii konverzácie, logoch alebo povolených pamäťových integráciách.</p>
+<p class="note">Informačný web neobsahuje e-maily, udalosti, heslá ani OAuth tokeny. Neumožňuje prihlásenie do Google ani čítanie údajov návštevníka.</p>
+<p>Podrobnosti sú uvedené v <a href="privacy.html">zásadách súkromia</a>.</p></section>
+<section aria-labelledby="contact"><h2 id="contact">Prevádzkovateľ a kontakt</h2>
+<p>Prevádzkovateľom je vlastník osobného projektu pod účtom <a href="https://github.com/Dfurdik">Dfurdik</a>. Podporný kontakt je uvedený na obrazovke Google OAuth súhlasu príslušnej aplikácie. Neposielajte heslá, overovacie kódy, tokeny ani obsah súkromných e-mailov do verejných komentárov na GitHube.</p></section>
+
+<footer>Osobný projekt účtu <a href="https://github.com/Dfurdik">Dfurdik</a>. Táto informačná stránka nie je prihlasovací formulár ani verejná služba na prístup k údajom Google.</footer>
+</main></body>
+</html>
